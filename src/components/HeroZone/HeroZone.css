@@ -1,0 +1,42 @@
+.hero-zone {
+    height: 400px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-text button {
+    font-size: 1.2rem;
+    background-color: #f9a826;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-text button:hover {
+    background-color: #b36900;
+  }
+  
